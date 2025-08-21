@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 244.51 254.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: url(#_名称未設定グラデーション_9);
+      }
+
+      .cls-4, .cls-5 {
+        mix-blend-mode: difference;
+      }
+    </style>
+    <mask id="mask" x="0" y="0" width="244.51" height="254.05" maskUnits="userSpaceOnUse">
+      <g class="cls-5">
+        <path class="cls-1" d="M17.09,63.73v126.38l31.06,18.35v-60.97l41.68-23.93v110.21l32.43,19.42V.85S18.91,63.73,17.09,63.73ZM89.83,95.22l-41.82,23.93v-48.49l41.82-23.93v48.49Z"/>
+        <polygon class="cls-1" points="227.42 95.22 227.42 63.73 122.26 .85 122.56 32.87 158.32 54.28 159.53 197.24 122.35 219.28 122.26 253.19 227.42 190.11 227.42 156.88 190.45 178.98 190.45 73.18 227.42 95.22"/>
+      </g>
+    </mask>
+    <linearGradient id="_名称未設定グラデーション_9" data-name="名称未設定グラデーション 9" x1="0" y1="127.02" x2="244.51" y2="127.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff004e"/>
+      <stop offset=".51" stop-color="#f33fff"/>
+      <stop offset="1" stop-color="#3a15ff"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-3">
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <g class="cls-2">
+        <rect class="cls-4" width="244.51" height="254.05"/>
+      </g>
+    </g>
+  </g>
+</svg>

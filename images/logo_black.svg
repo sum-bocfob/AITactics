@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 770 253">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        fill: #2e2e2e;
+        font-family: Haettenschweiler, Haettenschweiler;
+        font-size: 220px;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: url(#_名称未設定グラデーション_9);
+      }
+
+      .cls-5, .cls-6 {
+        mix-blend-mode: difference;
+      }
+    </style>
+    <mask id="mask" x="-16.81" y="-.32" width="244.51" height="254.05" maskUnits="userSpaceOnUse">
+      <g class="cls-6">
+        <path class="cls-1" d="M.28,63.41v126.38l31.06,18.35v-60.97l41.68-23.93v110.21l32.43,19.42V.54S2.1,63.41.28,63.41ZM73.01,94.9l-41.82,23.93v-48.49l41.82-23.93v48.49Z"/>
+        <polygon class="cls-1" points="210.61 94.9 210.61 63.41 105.44 .54 105 31 141.51 53.97 142.72 196.92 105 219 105.44 252.87 210.61 189.79 210.61 156.57 173.63 178.66 173.63 72.86 210.61 94.9"/>
+      </g>
+    </mask>
+    <linearGradient id="_名称未設定グラデーション_9" data-name="名称未設定グラデーション 9" x1="-16.81" y1="126.7" x2="227.7" y2="126.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff004e"/>
+      <stop offset=".51" stop-color="#f33fff"/>
+      <stop offset="1" stop-color="#3a15ff"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-4">
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <g class="cls-2">
+        <rect class="cls-5" x="-16.81" y="-.32" width="244.51" height="254.05"/>
+      </g>
+      <text class="cls-3" transform="translate(279.31 204.83)"><tspan x="0" y="0">Tactics</tspan></text>
+    </g>
+  </g>
+</svg>

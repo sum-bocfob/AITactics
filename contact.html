@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="AI Tacticsへのお問い合わせ情報を掲載しています。">
+<title>お問い合わせ | AI Tactics</title>
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/ress.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!--	マウスカーソル変更用------------->
+<div id="cursor"></div>
+<div id="stalker1"></div>
+<div id="stalker2"></div>
+	
+<!--	ヘッダー------------->
+<header>
+  <div class="wrapper header">
+    <h1 class="logo_main"><a href="index.html"><img src="images/logo_white.svg" alt="AI Tacticsのロゴ"></a></h1>
+    
+    <!--	グローバルナビ-->
+    <nav> 
+      <!--	ハンバーガー-->
+      <div class="hamburger"> <span></span> <span></span> <span></span> </div>
+      <div class="gnav_wrapper">
+        <ul class="gnav">
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="about.html">私たちについて</a></li>
+          <li><a href="service.html">サービス</a></li>
+          <li><a href="company.html">会社情報</a></li>
+          <li><a href="recruit.html">採用情報</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<!--ヒーロー------------->
+<div class="hero_sub">
+  <hgroup>
+    <p>お問い合わせ</p>
+    <h2 class="upper_case">Contact</h2>
+  </hgroup>
+</div>
+	
+<main>
+  <div class="wrapper"> 
+    <!--	  フォーム-->
+    <form action="#" method="put">
+      <div class="input_group">
+        <label for="name" class="required">お名前</label>
+        <input type="text" name="name" id="name" placeholder="山田 太郎" required autocomplete="name" autofocus>
+      </div>
+      <div class="input_group">
+        <label for="company" class="optional">会社名</label>
+        <input type="text" name="company" id="company" placeholder="株式会社○○○○" autocomplete="organization">
+      </div>
+      <div class="input_group">
+        <label for="email" class="required">メールアドレス</label>
+        <div class="input_group__note">
+          <input type="email" name="email" id="email" required autocomplete="email">
+          <p class="invalid_text">※メールアドレスの形式が正しくありません</p>
+        </div>
+      </div>
+      <div class="input_group">
+        <label for="type" class="required">お問い合わせ種別</label>
+        <select name="type" id="type" required>
+          <option value="" selected hidden="">選択してください</option>
+          <option value="サービスについて" >サービスについて</option>
+          <option value="採用について" >採用について</option>
+          <option value="取材・メディアについて" >取材・メディアについて</option>
+          <option value="その他" >その他</option>
+        </select>
+      </div>
+      <div class="input_group">
+        <label for="message" class="required">お問い合わせ内容</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="お問い合わせ内容をご入力ください" required></textarea>
+      </div>
+      <button type="submit">送信する</button>
+    </form>
+  </div>
+  <!--	フッター------------------>
+  <footer>
+    <div class="wrapper"> <a href="index.html"><img src="images/logo_black.svg" alt="AI Tacticsのロゴ"></a>
+      <ul>
+        <li><a href="news.html">お知らせ</a></li>
+        <li><a href="about.html">私たちについて</a></li>
+        <li><a href="service.html">サービス</a></li>
+        <li><a href="company.html">会社情報</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+      <small>Copyright&copy; 2025 AI Tactics All Rights Reserved.</small> </div>
+  </footer>
+</main>
+<script src="js/jquery-3.7.1.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
